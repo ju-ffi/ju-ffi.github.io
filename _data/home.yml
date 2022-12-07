@@ -12,7 +12,7 @@ project_entries:
     desc: This is an example project, configured in _data/home.yml
 
   - title: Project 2
-    url: overview-post
+    url: data-simulator
     desc: Projects are shown in card layout
 
   - title: Project 3
