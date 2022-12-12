@@ -27,7 +27,7 @@ tags: [restfulapi, project, portfolio]
 
 ## 구현 및 코드 설명
 
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/P1실행화면.PNG)
 
 Now some code:
 
