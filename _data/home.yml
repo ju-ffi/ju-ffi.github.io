@@ -8,8 +8,8 @@ navbar_entries:
 
 project_entries:
   - title: Project 1
-    url: restfulapi-library
-    desc: This is an example project, configured in _data/home.yml
+    url: restful-api-library
+    desc: Restful API를 활용한 디지털 라이브러리 구현 프로젝트
 
   - title: Project 2
     url: data-simulator
