@@ -1,8 +1,8 @@
-title: Ju HEESONG
-author: Ju Heesong
+title: JU HEESONG
+author: JU Heesong
 url: https://ju-ffi.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  데이터에 흥미를 가지고 늘 새로운 것에 도전하는 개발자
+  끊임없이 배우고 도전하고자 하는 개발자
 
 permalink: /:slug
 
