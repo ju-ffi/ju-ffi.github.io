@@ -27,14 +27,41 @@ tags: [restfulapi, project, portfolio]
 
 ## 구현 및 코드 설명
 
+- web 실행화면
+  1. 카드형식으로 물질의 이미지와 함께 정보를 나타냈으며 드래그를 이용해 원하는 물질 목록을 확인할 수 있다.
+  - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
+
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/P1실행화면.PNG)
 
 Now some code:
 
 ```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
+class MyCustomScrollBehavior extends MaterialScrollBehavior {
+  // Override behavior methods and getters like dragDevices
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+      };
+}
 ```
 
-And here is some `inline code`!
+- 각 물질별 DB화면
+  1. 원하는 물질의 카드를 클릭하면 나오는 
+  - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
+
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/P2물질별화면.PNG)
+
+Now some code:
+
+```
+class MyCustomScrollBehavior extends MaterialScrollBehavior {
+  // Override behavior methods and getters like dragDevices
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+      };
+}
+```
 
