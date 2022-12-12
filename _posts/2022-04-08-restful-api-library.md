@@ -137,8 +137,9 @@ Future<Data> readJson(String path, {bool fromAsset = false}) async {
 ```
 
 - Data File
-  1. 서버에 업로드된 데이터 목록을 나타내며, 오른쪽 상단 + 아이콘을 클릭하여 서버에 파일을 추가 업로드 및 쓰레기통 아이콘으로 서버에서 삭제 가능
-  - 
+ 1. 서버에 업로드된 데이터 목록을 나타내며, 오른쪽 상단 + 아이콘을 클릭하여 서버에 파일을 추가 업로드 및 쓰레기통 아이콘으로 서버에서 삭제 가능
+
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1datafile.PNG)
  ```javascript
  Future<List<DataFileList>> getImsFilelist(String comm, id) async {
   //print(address + comm + 'data_id=' + id);
