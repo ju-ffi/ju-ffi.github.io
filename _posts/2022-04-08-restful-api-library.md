@@ -28,7 +28,7 @@ tags: [restfulapi, project, portfolio]
 ## 구현 및 코드 설명
 
 - web 실행화면
-  1. 카드형식으로 물질의 이미지와 함께 정보를 나타냈으며 드래그를 이용해 원하는 물질 목록을 확인할 수 있다.
+ 1. 카드형식으로 물질의 이미지와 함께 정보를 나타냈으며 드래그를 이용해 원하는 물질 목록을 확인할 수 있다.
  - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/P1실행화면.PNG)
@@ -48,7 +48,8 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
 ```
 
 - 각 물질별 DB화면
-  1. 원하는 물질의 카드를 클릭하면 나오는 화면으로 해당 물질에 대한 상세 내용 확인 가능
+ 1. 원하는 물질의 카드를 클릭하면 나오는 화면으로 해당 물질에 대한 상세 내용 확인 가능
+ 
  화면 구성:
  - 물질 이미지 및 특징
  - Data Info : 물질의 화학적 특징
@@ -60,7 +61,7 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
 
 
 - Data Info
-  1. 해당 물질의 화학적 특징, 서버에서 데이터 get
+ 1. 해당 물질의 화학적 특징, 서버에서 데이터 get
  - Future와 Flutter의 http 라이브러리를 활용하여 서버에 있는 데이터를 get하고 화면에 데이터를 구현하였다.
  
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1DataInfo.PNG)
@@ -81,7 +82,7 @@ Future<DataInfo> getDataInfo(String comm, String typeid) async {
 }
 ```
 
-  2. Edit 화면에서는 사용자가 이용하기 쉽게 기존값을 나타내고, 수정하는 형태로 구현.
+ 2. Edit 화면에서는 사용자가 이용하기 쉽게 기존값을 나타내고, 수정하는 형태로 구현.
  
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1datainfoedit.PNG)
 
@@ -106,7 +107,7 @@ Future<DataInfo> ChangeDataInfo(
 ```
 
 - Ion Mobility Spectrometry
-  1. 해당 물질의 데이터 시각화
+ 1. 해당 물질의 데이터 시각화
   - 서버에서 파일의 path 주소를 읽고 json과 csv 파일 형식에 맞게 값을 decode하여 그래프로 나타낼 수 있도록 구현하였다.
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1datainfoedit.PNG)
@@ -137,7 +138,7 @@ Future<Data> readJson(String path, {bool fromAsset = false}) async {
 ```
 
 - Data File
- 1. 서버에 업로드된 데이터 목록을 나타내며, 오른쪽 상단 + 아이콘을 클릭하여 서버에 파일을 추가 업로드 및 쓰레기통 아이콘으로 서버에서 삭제 가능
+1. 서버에 업로드된 데이터 목록을 나타내며, 오른쪽 상단 + 아이콘을 클릭하여 서버에 파일을 추가 업로드 및 쓰레기통 아이콘으로 서버에서 삭제 가능
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1datafile.PNG)
 
