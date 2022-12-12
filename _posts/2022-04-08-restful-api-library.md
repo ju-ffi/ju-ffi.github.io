@@ -29,13 +29,13 @@ tags: [restfulapi, project, portfolio]
 
 - web 실행화면
   1. 카드형식으로 물질의 이미지와 함께 정보를 나타냈으며 드래그를 이용해 원하는 물질 목록을 확인할 수 있다.
-  - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
+ - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/P1실행화면.PNG)
 
 Now some code:
 
-```
+```python
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   // Override behavior methods and getters like dragDevices
   @override
@@ -47,21 +47,15 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
 ```
 
 - 각 물질별 DB화면
-  1. 원하는 물질의 카드를 클릭하면 나오는 
-  - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
+  1. 원하는 물질의 카드를 클릭하면 나오는 화면으로 해당 물질에 대한 상세 내용 확인 가능
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/P2물질별화면.PNG)
 
-Now some code:
+화면 구성:
+- 물질 이미지 및 특징
+- Data Info : 물질의 화학적 특징
+- Ion Mobility Spectrometry : 실험 데이터 그래프 시각화
+- Data File : 실험 데이터 서버 업로드 및 파일 목록
 
-```
-class MyCustomScrollBehavior extends MaterialScrollBehavior {
-  // Override behavior methods and getters like dragDevices
-  @override
-  Set<PointerDeviceKind> get dragDevices => {
-        PointerDeviceKind.touch,
-        PointerDeviceKind.mouse,
-      };
-}
-```
-
+- Data Info
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1DataInfo.PNG)![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1datainfoedit.PNG)
