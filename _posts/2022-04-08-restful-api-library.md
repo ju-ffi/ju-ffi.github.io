@@ -161,9 +161,9 @@ Now some code:
   }
 }
 ...
-FutureBuilder<List<ImsDataFileList>>(
+FutureBuilder<List<DataFileList>>(
             future: getFilelist(
-                "get_data_file_list_by_data_id?", data.id.toString() + "&is_raw=-1"),
+                "data_file_list?", data.id),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
               ...
@@ -171,7 +171,8 @@ FutureBuilder<List<ImsDataFileList>>(
              }
             )
  ```
- 2. 서버에 데이터 파일 업로드
+
+2. 서버에 데이터 파일 업로드
  - 파일 업로드는 http 라이브러리가 아닌 dio 라이브러리를 사용
  - dio라이브러리는 http와 다르게 header , body 등 생성해줄 필요가 없이 formMap을 통하여 항목에 맞게 정도를 mapping할 수 있는 장점 때문
  - 또한, 부가 기능으로 onSendProgress가 있어서 파일 업로드 현황을 확인 가능
@@ -183,7 +184,7 @@ Now some code:
    var dio = Dio();
       var formData = FormData.fromMap({
         'data_id': dataId,
-        'file': await MultipartFile.fromBytes(fileBytes, filename: fileName)
+        'file': await MultipartFile.fromBytes(filename: fileName)
       });
 
       response = dio.post(
