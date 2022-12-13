@@ -13,7 +13,7 @@ project_entries:
 
   - title: Project 2
     url: data-simulator
-    desc: Projects are shown in card layout
+    desc: 실험 데이터 검출 시뮬레이터 구현 프로젝트
 
   - title: Project 3
     url: overview-post
