@@ -38,7 +38,7 @@ tags: [project, data, simulator]
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p2실행화면.png)
 
 - 데이터 파일 선택 후 graph play
-- 데이터의 frame 주기를 확인하여 설정한 후, 그래프가 시간에 따라 변하도록 Timer 활용.
+1.데이터의 frame 주기를 확인하여 설정한 후, 그래프가 시간에 따라 변하도록 Timer 활용.
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p2graphplay.png)
 
@@ -49,5 +49,23 @@ Timer.periodic(
           Duration(milliseconds: frameTimeMs), (Timer t) => _drawchart());
 ```
 
-- 데이터 검출 화면
+- 실험 물질 검출 화면
+1. 물질의 종류와 함께 경보 알람
+2. 기존의 chart 라이브러리에 있는 tooltip이 사용하는 UI와 맞지 않아 직접 paint을 이용해 그려서 생성
+
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p2peak.png)
+Now some code:
+
+```javascript
+...
+  final Paint paint = Paint()
+      ..color = color
+      ..strokeWidth = 3.0
+      ..style = PaintingStyle.fill;
+
+    final Path mark = Path()
+      ..moveTo(size.width / 2, size.height)
+      ..lineTo(hw - hth, size.height - th)
+      ..lineTo(rw, size.height - th)
+ ...
+```
