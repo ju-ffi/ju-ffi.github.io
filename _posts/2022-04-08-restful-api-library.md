@@ -175,7 +175,6 @@ FutureBuilder<List<ImsDataFileList>>(
  - dio라이브러리는 http와 다르게 header , body 등 생성해줄 필요가 없이 formMap을 통하여 항목에 맞게 정도를 mapping할 수 있는 장점 때문
  - 또한, 부가 기능으로 onSendProgress가 있어서 파일 업로드 현황을 확인 가능
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1uploadrawfile.PNG)
-
 Now some code:
  ```javascript
  ...
