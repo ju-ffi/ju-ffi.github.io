@@ -109,6 +109,7 @@ Future<DataInfo> ChangeDataInfo(
 ```
 
 - Ion Mobility Spectrometry
+
 1. 해당 물질의 데이터 시각화
  - 파일 목록을 선택했을 때 서버에서 파일의 path 주소를 읽고, json과 csv 파일 형식에 맞게 값을 decode하여 그래프로 나타낼 수 있도록 구현
  - json 파일의 경우, 데이터의 용량이 커서 읽어오는데 한계가 있으므로 raw 파일이 아닌 preview 파일이 나타나도록 설정
@@ -141,6 +142,7 @@ Future<Data> readJson(String path, {bool fromAsset = false}) async {
 ```
 
 - Data File
+
 1. 서버에 업로드된 데이터 목록을 나타내며, 오른쪽 상단 + 아이콘을 클릭하여 서버에 파일을 추가 업로드 및 쓰레기통 아이콘으로 서버에서 삭제 가능
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1datafile.PNG)
@@ -172,7 +174,7 @@ FutureBuilder<List<DataFileList>>(
             )
  ```
 
-2. 서버에 데이터 파일 업로드
+ 2. 서버에 데이터 파일 업로드
  - 파일 업로드는 http 라이브러리가 아닌 dio 라이브러리를 사용
  - dio라이브러리는 http와 다르게 header , body 등 생성해줄 필요가 없이 formMap을 통하여 항목에 맞게 정도를 mapping할 수 있는 장점 때문
  - 또한, 부가 기능으로 onSendProgress가 있어서 파일 업로드 현황을 확인 가능
