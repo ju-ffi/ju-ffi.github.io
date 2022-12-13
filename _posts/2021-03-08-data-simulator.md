@@ -20,14 +20,16 @@ tags: [project, data, simulator]
 
 1. Windows 프로그램으로 실행 가능
 2. 첫 실행화면에서는 원하는 실험 데이터 파일을 선택
-3. 특정구간에서 peak가 발생할 경우 경보 알람
-4. 값 또는 물질 확인을 위해 그래프 멈춤, 재생 동작 가능
+3. 플레이버튼을 클릭하여 그래프 재생
+4. 특정구간에서 peak가 발생할 경우 경보 알람
+5. 값 또는 물질 확인을 위해 그래프 멈춤, 재생 동작 가능
 
 ## 구현 및 코드 설명
 (본 코드는 프로젝트 유출금지로 일부의 코드만 변형 및 기재하였습니다.)
 
+- Windows 실행화면
 
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/p2실행화면.png)
 
 This is an image[^4]
 
