@@ -29,14 +29,23 @@ tags: [project, data, simulator]
 
 - Windows 실행화면
 
+화면구성:
+- 왼쪽상단에서 사용자 이름 확인 가능
+- 오른쪽 상단에서 그래프 파일 추가
+- Play 버튼 클릭으로 그래프 재생 및 멈춤 기능
+- 파일 패스 및 peak 측정시 경보 알람
+
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p2실행화면.png)
 
-This is an image[^4]
+- 데이터 파일 선택 후 graph play
+- 데이터의 frame 주기를 확인하여 설정한 후, 그래프가 시간에 따라 변하도록 Timer 활용.
 
----
-{: data-content="footnotes"}
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/p2graphplay.png)
 
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
+Now some code:
+
+```javascript
+Timer.periodic(
+          Duration(milliseconds: frameTimeMs), (Timer t) => _drawchart());
+```
+
