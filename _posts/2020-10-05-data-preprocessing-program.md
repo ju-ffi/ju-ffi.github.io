@@ -1,14 +1,14 @@
 ---
 layout: post
 author: Ju Heesong
-tags: [project, data, simulator]
+tags: [project, data, preprocessing]
 ---
 
 
-# 데이터 검출 시뮬레이터 프로그램
+# 데이터 전처리 통합 공유 플랫폼 팀 프로젝트
 
 
-본 프로그램은 실험을 통해 수집한 데이터를 기반으로 이용하고 있는 센서에 특정 물질이 들어왔을 때 이를 감지하고 검출하기 위한 시뮬레이터로, Flutter를 활용하여 구현하였다.
+본 프로젝트는 서울시 뉴딜일자리 빅데이터 전문가 양성 과정에서 진행되었던 프로젝트로 <Day Share> 라는 데이터 전처리 통합 공유 플랫폼을 개발하고자 하였다.
 
 ## 주요기능
 
