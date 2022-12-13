@@ -17,4 +17,4 @@ project_entries:
 
   - title: Project 3
     url: overview-post
-    desc: You can control visibility from _config.yml file
+    desc: 인력, 시간, 비용 감소를 위한 데이터 전처리 플랫폼 구현 프로젝트
