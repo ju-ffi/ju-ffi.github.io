@@ -183,8 +183,7 @@ Now some code:
    var dio = Dio();
       var formData = FormData.fromMap({
         'data_id': dataId,
-        'file': await MultipartFile.fromBytes(fileBytes, filename: fileName),
-        'raw_id': dataId,
+        'file': await MultipartFile.fromBytes(fileBytes, filename: fileName)
       });
 
       response = dio.post(
