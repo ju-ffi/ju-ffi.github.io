@@ -28,8 +28,8 @@ tags: [restfulapi, project, portfolio]
 ## 구현 및 코드 설명
 
 - web 실행화면
- 1. 카드형식으로 물질의 이미지와 함께 정보를 나타냈으며 드래그를 이용해 원하는 물질 목록을 확인할 수 있다.
- - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
+1. 카드형식으로 물질의 이미지와 함께 정보를 나타냈으며 드래그를 이용해 원하는 물질 목록을 확인할 수 있다.
+  - flutter의 ScrollBehavior를 활용, web 프로그램이므로 touch와 mouse에 반응하도록 설정하였다.
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/P1실행화면.PNG)
 
@@ -62,7 +62,7 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
 
 - Data Info
  1. 해당 물질의 화학적 특징, 서버에서 데이터 get
- - Future와 Flutter의 http 라이브러리를 활용하여 서버에 있는 데이터를 get하고 화면에 데이터를 구현하였다.
+  - Future와 Flutter의 http 라이브러리를 활용하여 서버에 있는 데이터를 get하고 화면에 데이터를 구현하였다.
  
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/p1DataInfo.PNG)
 
