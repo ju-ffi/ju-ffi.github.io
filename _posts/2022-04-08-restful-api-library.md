@@ -26,6 +26,7 @@ tags: [restfulapi, project, portfolio]
 
 
 ## 구현 및 코드 설명
+(본 코드는 프로젝트 유출금지로 일부의 코드만 변형 및 기재하였습니다.)
 
 - web 실행화면
 
