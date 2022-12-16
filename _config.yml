@@ -37,6 +37,7 @@ theme_config:
     title_misc_list: Details
     title_blog: Exprience    
     title_old_projects: 수상경력
+    description: ...'
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
