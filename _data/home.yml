@@ -16,5 +16,5 @@ project_entries:
     desc: 실험 데이터 검출 시뮬레이터 구현 프로젝트
 
   - title: Project 3
-    url: data-preprocessing-program
+    url: 팀프로젝트-data-preprocessing-program
     desc: <Day Share> 인력, 시간, 비용 감소를 위한 데이터 전처리 플랫폼 구현 팀프로젝트
