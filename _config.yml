@@ -33,6 +33,8 @@ theme_config:
     title_misc_list: 수상경력
     title_blog: Exprience
     title_old_projects: 수상경력
+    description2: > # description of the site (multiple lines allowed)
+  "현실에 "
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
