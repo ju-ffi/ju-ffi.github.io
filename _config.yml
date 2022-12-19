@@ -31,7 +31,8 @@ theme_config:
   home:
     title_projects: Portfolio
     title_misc_list: 수상경력
-    title_blog: Exprience    
+    title_blog: Exprience
+    title_old_projects: 수상경력
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
