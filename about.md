@@ -3,25 +3,35 @@ layout: post
 title: 자기소개
 ---
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo.
+`현실에 안주하기보다는, 끊임없이 도전하자`
 
-## 직무 경험 및 경력
-- [Table of contents](#table-of-contents)
-- [The start](#the-start)
-- [The middle](#the-middle)
-- [The end](#the-end)
+## CONTENTS
+- [직무경험 및 경력](#the-start)
+- [성격의 장단점](#the-middle)
+- [성장과정](#the-end)
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo. Vestibulum porta tincidunt tellus, vitae ornare tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc neque, tempor in iaculis non, faucibus et metus. Etiam id nisl ut lorem gravida euismod.
+## 직무경험 및 경력(#the-start)
 
-## [The start](#the-start)
+[꾸준한 노력, 우수논문상을 받기까지]
 
-Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus massa, non elementum eros vulputate non. Suspendisse potenti. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc. Sed massa quam, auctor in eros quis, porttitor tincidunt orci. Nulla convallis id sapien ornare viverra. Cras nec est lacinia ligula porta tincidunt. Nam a est eget ligula pellentesque posuere. Maecenas quis enim ac risus accumsan scelerisque. Aliquam vitae libero sapien. Etiam convallis, metus nec suscipit condimentum, quam massa congue velit, sit amet sollicitudin nisi tortor a lectus. Cras a arcu enim. Suspendisse hendrerit euismod est ac gravida. Donec vitae elit tristique, suscipit eros at, aliquam augue. In ac faucibus dui. Sed tempor lacus tristique elit sagittis, vitae tempor massa convallis.
+그간 국가연구과제에 참여하며 위험 화학물 검출 시뮬레이터를 구현해야 하는 업무를 수행하였습니다. 해당 시뮬레이터는 현장에서 실무진들이 직접 사용해야 하기에, 주어진 실험 데이터를 기반으로 사용자가 구동하기 편리하도록 개발하는 데 중점을 두었습니다.
+따라서 먼저 기존에 쓰이는 시뮬레이터들의 기능과 UI들을 분석하여 사용자들이 주로 겪는 불편함은 무엇일지, 그리고 개선해야 할 것은 무엇일지 파악하였습니다. 그 결과, 평소 사용하는 시뮬레이터들은 실험 데이터를 기반으로 다소 개발자의 입장에서 만들어져 직관적이지 않다는 내용을 확인하였습니다. 이에 사용자가 확인해야 하는 정보들을 따로 박스에 넣어 보기 편하게 만들고, 화학물 검출 시 색이 바뀌고 경보를 울리는 기능을 넣어 직관적으로 정보를 볼 수 있게 시뮬레이터를 구현하였습니다.
+또한, 개발하며 사용하였던 라이브러리 그래프의 tootip이 직관적이지 않다고 생각되어 CustomPainter를 활용해 새로운 디자인의 tootip을 개발하였습니다.
+이 과정을 보신 사수분께서는 사용자의 입장에서 프로그램을 만든 점이 좋았다며 칭찬해주셨습니다. 덧붙여 UI뿐만 아니라 화학물을 검출하는 과정에서도 조금 더 고민을 해보라고 조언을 해주신 덕분에, 검출 상황에 따라 외부요인이 섞여 있을 수 있음을 인지할 수 있었습니다. 이후 프로그램 메모리에 각 데이터 frame을 저장하여 앞뒤 frame의 검출 데이터를 비교하는 방식의 개선된 검출 알고리즘 사용을 시도하였습니다. 결국, 이러한 노력으로 프로젝트 시뮬레이터 개발 내용을 기반으로 하여 처음으로 학술 논문을 발표하기도 하였습니다. 학술논문은 2021년 인터넷정보학회 추계학술대회에서 `우수논문상`을 수상하였고, 2022년에는 해당 논문을 기반으로 KSII-JICS 논문지 23권 3호에 `화물 컨테이너 내 IMS 신호를 이용한 적응 윈도우 기반 마약 및 폭발물 검출` 논문을 게재할 수 있었습니다
 
-## [The middle](#the-middle)
+## 성격의 장단점(#the-middle)
 
-Proin quis velit et eros auctor laoreet. Aenean eget nibh odio. Suspendisse mollis enim pretium, fermentum urna vitae, egestas purus. Donec convallis tincidunt purus, scelerisque fermentum eros sagittis vel. Aliquam ac aliquet risus, tempus iaculis est. Fusce molestie mauris non interdum hendrerit. Curabitur ullamcorper, eros vitae interdum volutpat, lacus magna lacinia turpis, at accumsan dui tortor vel lectus. Aenean risus massa, semper non lectus rutrum, facilisis imperdiet mi. Praesent sed quam quis purus auctor ornare et sed augue. Vestibulum non quam quis ligula luctus placerat sed sit amet erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce auctor, sem eu volutpat dignissim, turpis nibh malesuada arcu, in consequat elit mauris quis sem. Nam tristique sit amet enim vel accumsan. Sed id nibh commodo, dictum sem id, semper quam.
+[철저함으로 이끌어낸 협력사의 `신뢰`]
 
-## The end
+업무 수행 시 미리 계획을 수립하고, 꼼꼼하게 검증하는 `철저함`이라는 장점이 있습니다. 일례로 제조업 회사에서 상품관리 업무를 수행할 때, 새로운 아이템의 생산 계획을 철저하게 수립 및 검증한 경험이 있습니다. 당시 협력사가 제시한 `3개월`이라는 생산 일정을 듣고, 과거 생산 일정과 철저하게 비교하며 생산 계획을 검증했습니다. 이 과정에서 처음 생산하는 제품의 경우 공정상의 이슈, 불량제품 발생 등 다양한 이유로 일정이 늦어지는 경우가 대다수임을 발견하였습니다. 그 근거를 정리하여 협력사를 설득한 끝에 4개월을 기준으로 한 생산 일정을 다시 수립할 수 있었습니다. 그 결과, 실제로 대량 생산 과정에서 문제가 발생했을 때 여유를 두고 이를 해결하였습니다. 이를 통해 타부서와 협력사의 신뢰를 얻을 수 있었을 뿐만 아니라, `철저함`의 중요성을 다시금 체감할 수 있었습니다.
+더불어 이러한 장점은 프로그램 개발 업무의 개발 완료 시간을 엄수하는 데도 도움이 되었습니다. 연말에는 개발뿐만 아니라 보고서와 논문을 작성해야 하는 상황이 종종 생겼기에, 이러한 부분을 고려하여 1년 장기 계획을 수립하였습니다. 또한, 매달 업무 수행 경과와 프로젝트 진행 및 변경 사항들도 메모해두었습니다. 그 결과, 보고서 작성을 기한에 맞게 끝낼 수 있었고, 프로그램의 개발 역시 계획한 일정보다 신속히 마무리하였습니다. 그리고 여유로운 일정으로 프로그램의 오류와 수정사항도 기한 내 문제없이 처리할 수 있었습니다.
 
-Donec ex lectus, tempus non lacinia quis, pretium non ipsum. Praesent est nunc, rutrum vel tellus eu, tristique laoreet purus. In rutrum orci sit amet ex ornare, sit amet finibus lacus laoreet. Etiam ac facilisis purus, eget porttitor odio. Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus. Vivamus at purus sed urna sollicitudin mattis. Mauris lacinia libero in lobortis pulvinar. Nullam sit amet condimentum justo. Donec orci justo, pharetra ut dolor non, interdum finibus orci. Proin vitae ante a dui sodales commodo ac id elit. Nunc vel accumsan nunc, sit amet congue nunc. Aliquam in lacinia velit. Integer lobortis luctus eros, in fermentum metus aliquet a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+반면에 한 가지 일에 집중하면 종종 지나치게 몰두하는 경우가 있습니다. 이러한 단점을 보완하기 위해, 업무의 우선순위를 정하는 습관을 들였습니다. 이를 통해 중요한 업무부터 효율적으로 처리하고, 다량의 업무를 맡았을 때도 순서대로 처리하며 마감시한을 지켜낼 수 있었습니다. 앞으로 부족한 점은 노력으로 극복해내도록 하겠습니다.
 
+## 성장과정(#the-end)
+
+[목표를 달성하게 만들어준, 끈기의 힘]
+
+그동안 실패에 좌절하지 않고 목표를 이룰 때까지 끊임없이 도전하는 `끈기`를 기반으로 성장해왔습니다. 일례로 디자인을 전공하였으나 개발자를 꿈꾸며 프로그램 언어를 공부하고, 연구원에 전직한 후 끊임없는 고민과 꾸준한 노력으로 원하는 결과를 이룬 경험이 있습니다.
+작년 개발 직무를 맡아 프로젝트에 참여하게 되었을 때, 공부했던 언어가 아닌 새로운 언어로 프로그램을 구현해야 했습니다. 이에 개발 도중 오류가 생겨 해결방법을 찾지 못하는 상황이었으나 마감기한은 다가오는 것에 좌절감을 느꼈습니다. 하지만 포기하지 않고 오류가 생긴 부분과 해결이 어려운 부분을 프레젠테이션으로 준비하여 사수분께 보여드렸고, 적절한 조언과 도움을 받아 기한 내에 해결할 수 있었습니다. 이렇게 어려움을 헤쳐나갔던 경험은 쉽게 얻은 지식과는 다르게 시간이 지나도 잊히지 않고 저 자신의 자산이 되어 프로젝트를 수행하는 데 큰 도움이 되었습니다.
+또한, 이 경험을 기반으로 2022년부터 시뮬레이터 기반으로 Restful API 를 활용한 DB관리 프로그램을 개발하여 프로그램 저작물 등록을 수행하였습니다. 이렇게 어려운 상황에서 좌절하기보다 끈기있게 노력했던 경험은, 제게 난관의 극복이란 `성공을 위한 밑거름`이 되어줌을 익히게 해주었습니다. 이를 토대로, 항상 원인 분석과 문제 해결로 한층 발전하는 모습을 보여드리겠습니다.
