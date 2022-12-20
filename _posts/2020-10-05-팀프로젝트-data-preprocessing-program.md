@@ -26,6 +26,7 @@ tags: [project, data, preprocessing]
 ## 구현 및 코드 설명
 
 - 회원가입 화면
+ 
  1.회원정보를 입력하고 저장
 
 ![theme logo](http://ju-ffi.github.io/assets/images/favicon/회원가입.png)
@@ -38,7 +39,7 @@ tags: [project, data, preprocessing]
 1. 원하는 데이터 파일을 선택하여 업로드
 2. 파일에 접근하려면 얼굴 인식 보안을 통해 접근 가능
 
-![theme logo](http://ju-ffi.github.io/assets/images/favicon/마이페이지업로드.png)
+![theme logo](http://ju-ffi.github.io/assets/images/favicon/마이페이지 업로드.png)
 
 - 데이터 전처리 화면
 1. 원하는 데이터 요약을 확인
